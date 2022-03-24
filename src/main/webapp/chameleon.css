@@ -12,6 +12,7 @@
 	--bs-bg-opacity: 1;
 	background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
 }
+
 /* d-flex, align-items-center, pb-3, mb-3 */
 /* link-dark text-decoration-none border-bottom */
 .d-flex {
@@ -42,6 +43,7 @@
 	border-bottom-style: solid !important; 
 	border-bottom-color: rgb(222, 226, 230) !important;
 }
+
 /* bi, me-2 */
 .bi {
 	vertical-align: -0.125em;
@@ -51,4 +53,19 @@
 .me-2 {
 	margin-right: 0.5rem !important;
 }
- 
+
+/* fs-5, fw-semibold */
+.fs-5 {
+	font-size: 1.25rem !important;
+}
+.fw-semibold {
+	font-weight: 600;
+}
+/* list-unstyled, ps-0 */
+.list-unstyled {
+	list-style: none;
+}
+.ps-0 {
+	padding-left: 0 !important;
+}
+/*  */
