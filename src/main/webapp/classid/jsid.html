@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Using The id Attribute in JavaScript</h2>
+<p>JavaScript can access an element with a specified id by using the getElementById() method:</p>
+
+<!-- 실행되는 것: h1태그 안에 있는 hello world를 <script>를 통해 have a nice day로 바꿔주는 것 -->
+<h1 id="myHeader">Hello World!</h1>
+
+<!-- change text라는 버튼을 만들어서 클릭을 하면 스크립트가 실행되도록 한다. -->
+<button onclick="displayResult()">Change text</button>
+
+<!-- TMI: Kotlin에서는 function을 fun이라고 하는 듯하다. -->
+<script>
+function displayResult() {
+  document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}
+</script>
+
+</body>
+</html>

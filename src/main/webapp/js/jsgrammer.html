@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>grammer</title>
+</head>
+<body>
+	<!-- 자바스크립트 구문: document.getElementById("id명").innerHTML ="출력하고자 하는 문장 또는 값" -->
+	<!-- innerHTML: <tag> ~~~ </tag> -->
+	<!-- ~~~에 해당하는 내용을 출력한다. -->
+	<h2>안녕하세요~</h2>
+	<div id="demo"></div>
+	<button onclick="clickEvt()">클릭 시 글자 출력</button>
+	<img src="../a.jpg" id="image">
+	<!-- 알 수 없는 코드도 출력이 됨. -->
+	<!--  <ewfwefwefwef>ewfwefwefwef</ewfwefwefwef> -->
+	<script>
+		function clickEvt() {
+
+			document.getElementById("image").src = "../imgs/B.jpg";
+			/* 순서는 상관이 없는 듯하다. */
+			document.getElementById("demo").style.fontSize = "25px";
+			document.getElementById("demo").style.color = "red";
+			document.getElementById("demo").style.backgroundColor = "yellow";
+			document.getElementById("demo").innerHTML = "Hello JavaScript!";
+		}
+	</script>
+</body>
+</html>

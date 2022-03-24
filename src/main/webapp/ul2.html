@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+ul {
+  list-style-type: none; 	/* 앞에 모양 없애기 */
+  margin: 0; 
+  padding: 0; 				/* 여백 없애기 */
+  overflow: hidden; 		/* 영역 넘어간 아이들은 감춰라 */
+  background-color: #333333; 
+}
+
+li {
+  float: left; 				/* 왼쪽으로 붙여라 */
+}
+
+li a {
+  display: block; 			/* 블록으로 구성해라 */
+  color: white; 			/* 글은 흰색으로 */
+  text-align: center; 		/* 중앙정령 */
+  padding: 16px; 			/* 여백 16px */
+  text-decoration: none; 
+}
+/* 마우스 올렸을 때 색상 변화 */
+li a:hover {
+  background-color: #111111;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+</body>
+</html>
